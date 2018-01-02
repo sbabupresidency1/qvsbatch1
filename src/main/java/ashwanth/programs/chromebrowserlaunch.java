@@ -1,16 +1,16 @@
-package Selenium_Browserlaunch;
+package ashwanth.programs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Browserlaunch {
+public class chromebrowserlaunch {
 	 public static void main(String[] args) throws InterruptedException  {
 		 System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe"); //Setting up chrome driver
 	      WebDriver driver = new ChromeDriver();
 		 
-		 driver.get("http://prince2.sensiple.com/prince-web/ems/login/view");//Launch Browser
+		 driver.get("http://prince2.sensiple.com/prince-web/ems/login/view");//Launch Chrome Browser
 		 
 		 driver.manage().window().maximize();//Maximize the window
 		 
