@@ -1,4 +1,4 @@
-package Selenium_Browserlaunch;
+package ashwanth.programs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ public class Browserlaunch {
 		 System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe"); //Setting up chrome driver
 	      WebDriver driver = new ChromeDriver();
 		 
-		 driver.get("http://prince2.sensiple.com/prince-web/ems/login/view");//Launch Browser
+		 driver.get("http://prince2.sensiple.com/prince-web/ems/login/view");//Launch Chrome Browser
 		 
 		 driver.manage().window().maximize();//Maximize the window
 		 
