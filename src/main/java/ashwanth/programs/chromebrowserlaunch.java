@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Browserlaunch {
+public class chromebrowserlaunch {
 	 public static void main(String[] args) throws InterruptedException  {
 		 System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe"); //Setting up chrome driver
 	      WebDriver driver = new ChromeDriver();
