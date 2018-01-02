@@ -23,6 +23,14 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.13.1</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>qvsbatch1</finalName>
@@ -50,11 +58,8 @@
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
 					<!-- MainClass in mainfest make a executable jar -->
-					<!-- <archive>
-						<manifest>
-							<mainClass>ProgramTestNG</mainClass>
-						</manifest>
-					</archive> -->
+					<!-- <archive> <manifest> <mainClass>ProgramTestNG</mainClass> </manifest> 
+						</archive> -->
 
 				</configuration>
 				<executions>
