@@ -4,6 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+
+/*
+ * Created By:   R.Ramya Nagalakshmi 
+ * Created Date: 29th December '17 
+ * Description:  To invoke multi-browser
+ */
 public class Browser {
 			 public static void main(String[] args) throws InterruptedException  {
 				 
