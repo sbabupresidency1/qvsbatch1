@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13349" started-at="2018-01-03T13:39:44Z" finished-at="2018-01-03T13:39:57Z">
+  <suite name="Default suite" duration-ms="13346" started-at="2018-01-03T13:45:10Z" finished-at="2018-01-03T13:45:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13349" started-at="2018-01-03T13:39:44Z" finished-at="2018-01-03T13:39:57Z">
+    <test name="Default test" duration-ms="13346" started-at="2018-01-03T13:45:10Z" finished-at="2018-01-03T13:45:24Z">
       <class name="ashwanth.programs.TestNGFirst">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeSuite" is-config="true" duration-ms="4835" started-at="2018-01-03T19:09:39Z" finished-at="2018-01-03T19:09:44Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeSuite" is-config="true" duration-ms="4717" started-at="2018-01-03T19:15:06Z" finished-at="2018-01-03T19:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeTest" is-config="true" duration-ms="630" started-at="2018-01-03T19:09:44Z" finished-at="2018-01-03T19:09:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeTest" is-config="true" duration-ms="718" started-at="2018-01-03T19:15:10Z" finished-at="2018-01-03T19:15:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeClass" is-config="true" duration-ms="1152" started-at="2018-01-03T19:09:44Z" finished-at="2018-01-03T19:09:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeClass" is-config="true" duration-ms="1169" started-at="2018-01-03T19:15:11Z" finished-at="2018-01-03T19:15:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeMethod" is-config="true" duration-ms="280" started-at="2018-01-03T19:09:45Z" finished-at="2018-01-03T19:09:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="beforeMethod" is-config="true" duration-ms="240" started-at="2018-01-03T19:15:12Z" finished-at="2018-01-03T19:15:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="testCase1" duration-ms="1395" started-at="2018-01-03T19:09:46Z" finished-at="2018-01-03T19:09:47Z">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="testCase1" duration-ms="1295" started-at="2018-01-03T19:15:12Z" finished-at="2018-01-03T19:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterMethod" is-config="true" duration-ms="749" started-at="2018-01-03T19:09:47Z" finished-at="2018-01-03T19:09:48Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterMethod" is-config="true" duration-ms="777" started-at="2018-01-03T19:15:14Z" finished-at="2018-01-03T19:15:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterClass" is-config="true" duration-ms="3106" started-at="2018-01-03T19:09:48Z" finished-at="2018-01-03T19:09:51Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterClass" is-config="true" duration-ms="3107" started-at="2018-01-03T19:15:15Z" finished-at="2018-01-03T19:15:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterTest" is-config="true" duration-ms="6001" started-at="2018-01-03T19:09:51Z" finished-at="2018-01-03T19:09:57Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterTest" is-config="true" duration-ms="6000" started-at="2018-01-03T19:15:18Z" finished-at="2018-01-03T19:15:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterSuite" is-config="true" duration-ms="2352" started-at="2018-01-03T19:09:57Z" finished-at="2018-01-03T19:09:59Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ashwanth.programs.TestNGFirst@150c158]" name="afterSuite" is-config="true" duration-ms="224" started-at="2018-01-03T19:15:24Z" finished-at="2018-01-03T19:15:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

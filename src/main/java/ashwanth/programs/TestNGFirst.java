@@ -58,7 +58,7 @@ public class TestNGFirst {
 
    @BeforeSuite
    public void beforeSuite() {
-	   System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe"); //Setting up chrome driver
+	   System.setProperty("webdriver.chrome.driver", "C:\\workspace\\qvsbatch1\\SelDrivers\\ChromeDriver.exe"); //Setting up chrome driver
 	       driver = new ChromeDriver();
    }
 
