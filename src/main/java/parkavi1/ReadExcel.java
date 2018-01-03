@@ -41,7 +41,7 @@ package parkavi1;
 			
 				
 			
-			Thread.sleep(3000);//TO STAY FOR A 
+			Thread.sleep(3000);
 		}
 		
 		    }
@@ -53,4 +53,4 @@ package parkavi1;
 
 
 
-}
+
