@@ -25,8 +25,8 @@ public class Test1 {
 	{
 		Properties prop;
 		prop = new Properties();
-		String strFilePathDir = "C:\\workspace\\SeleniumWebDriverMavenWorkOut\\FilePathDirectories.properties";
-		String strORLocatorsFileDir = "C:\\workspace\\SeleniumWebDriverMavenWorkOut\\ORLocator.properties";
+		String strFilePathDir = "C:\\workspace\\qvsbatch1\\FilePathDirectories.properties";
+		String strORLocatorsFileDir = "C:\\workspace\\qvsbatch1\\ORLocator.properties";
 
 		/************** Property File - FilePathDirectories.properties **************/
 		try {
