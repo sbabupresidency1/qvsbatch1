@@ -20,7 +20,7 @@ public class TestNg {
 	@BeforeClass
 	public void startUpBrowser() throws IOException, InterruptedException {
 		System.setProperty("webdriver.gecko.driver",
-				"C:\\workspace\\SeleniumWebDriverMavenWorkOut\\SeleniumDrivers\\geckodriver-v0.18.1-win64.exe");
+				"C:\\workspace\\qvsbatch1\\SelDrivers\\geckodriver-v0.18.1-win64.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://czimail.logix.in");
 		driver.manage().window().maximize();

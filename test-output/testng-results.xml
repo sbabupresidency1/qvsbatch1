@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16619" started-at="2018-01-03T12:46:45Z" finished-at="2018-01-03T12:47:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16619" started-at="2018-01-03T12:46:45Z" finished-at="2018-01-03T12:47:02Z">
+      <class name="qa.rajuverma.programs.TestNg">
+        <test-method status="PASS" signature="startUpBrowser()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="startUpBrowser" is-config="true" duration-ms="13130" started-at="2018-01-03T18:16:45Z" finished-at="2018-01-03T18:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUpBrowser -->
+        <test-method status="PASS" signature="sensipleLogin()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="sensipleLogin" duration-ms="3298" started-at="2018-01-03T18:16:58Z" finished-at="2018-01-03T18:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sensipleLogin -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="closebrowser" is-config="true" duration-ms="155" started-at="2018-01-03T18:17:02Z" finished-at="2018-01-03T18:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- qa.rajuverma.programs.TestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
