@@ -19,12 +19,8 @@ public class browserlaunch {
 
 		// Name locator
 
-		driver.findElement(By.name("username")).sendKeys
-
-		("ramyanagalakshmir@sensiple.com");
-		driver.findElement(By.name("password")).sendKeys
-
-		("November17@");
+		driver.findElement(By.name("username")).sendKeys("ramyanagalakshmir@sensiple.com");
+		driver.findElement(By.name("password")).sendKeys("November17@");
 		driver.findElement(By.name("mysubmit")).click();
 		Thread.sleep(6000);
 
