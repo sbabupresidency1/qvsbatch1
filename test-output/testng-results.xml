@@ -2,48 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="15116" started-at="2018-01-03T14:03:19Z" finished-at="2018-01-03T14:03:34Z">
+  <suite name="Default suite" duration-ms="17579" started-at="2018-01-04T04:57:42Z" finished-at="2018-01-04T04:58:00Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="15116" started-at="2018-01-03T14:03:19Z" finished-at="2018-01-03T14:03:34Z">
-      <class name="ashwanth.programs.TestNGFirst">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="beforeSuite" is-config="true" duration-ms="7061" started-at="2018-01-03T19:33:12Z" finished-at="2018-01-03T19:33:19Z">
+    <test name="Default test" duration-ms="17579" started-at="2018-01-04T04:57:42Z" finished-at="2018-01-04T04:58:00Z">
+      <class name="ramyar.testng">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:ramyar.testng@401e7803]" name="launchbrowser" is-config="true" duration-ms="9223" started-at="2018-01-04T10:27:42Z" finished-at="2018-01-04T10:27:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="beforeTest" is-config="true" duration-ms="1225" started-at="2018-01-03T19:33:19Z" finished-at="2018-01-03T19:33:20Z">
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:ramyar.testng@401e7803]" name="launchapp" is-config="true" duration-ms="4745" started-at="2018-01-04T10:27:51Z" finished-at="2018-01-04T10:27:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="beforeClass" is-config="true" duration-ms="1265" started-at="2018-01-03T19:33:20Z" finished-at="2018-01-03T19:33:22Z">
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:ramyar.testng@401e7803]" name="login" duration-ms="2232" started-at="2018-01-04T10:27:56Z" finished-at="2018-01-04T10:27:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="beforeMethod" is-config="true" duration-ms="436" started-at="2018-01-03T19:33:22Z" finished-at="2018-01-03T19:33:22Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="refresh1()[pri:0, instance:ramyar.testng@401e7803]" name="refresh1" is-config="true" duration-ms="1141" started-at="2018-01-04T10:27:58Z" finished-at="2018-01-04T10:28:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="testCase1" duration-ms="1910" started-at="2018-01-03T19:33:22Z" finished-at="2018-01-03T19:33:24Z">
+        </test-method> <!-- refresh1 -->
+        <test-method status="PASS" signature="terminatetest()[pri:0, instance:ramyar.testng@401e7803]" name="terminatetest" is-config="true" duration-ms="207" started-at="2018-01-04T10:28:00Z" finished-at="2018-01-04T10:28:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="afterMethod" is-config="true" duration-ms="1144" started-at="2018-01-03T19:33:24Z" finished-at="2018-01-03T19:33:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="afterClass" is-config="true" duration-ms="3104" started-at="2018-01-03T19:33:25Z" finished-at="2018-01-03T19:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="afterTest" is-config="true" duration-ms="6000" started-at="2018-01-03T19:33:28Z" finished-at="2018-01-03T19:33:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ashwanth.programs.TestNGFirst@43a0cee9]" name="afterSuite" is-config="true" duration-ms="244" started-at="2018-01-03T19:33:34Z" finished-at="2018-01-03T19:33:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- ashwanth.programs.TestNGFirst -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+        </test-method> <!-- terminatetest -->
+      </class> <!-- ramyar.testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
