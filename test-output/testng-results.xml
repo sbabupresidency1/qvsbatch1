@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16641" started-at="2018-01-04T12:22:44Z" finished-at="2018-01-04T12:23:01Z">
+  <suite name="Default suite" duration-ms="15465" started-at="2018-01-04T12:23:54Z" finished-at="2018-01-04T12:24:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16641" started-at="2018-01-04T12:22:44Z" finished-at="2018-01-04T12:23:01Z">
+    <test name="Default test" duration-ms="15465" started-at="2018-01-04T12:23:54Z" finished-at="2018-01-04T12:24:10Z">
       <class name="qa.rajuverma.programs.TestNg">
-        <test-method status="PASS" signature="startUpBrowser()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="startUpBrowser" is-config="true" duration-ms="12929" started-at="2018-01-04T17:52:44Z" finished-at="2018-01-04T17:52:57Z">
+        <test-method status="PASS" signature="startUpBrowser()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="startUpBrowser" is-config="true" duration-ms="11450" started-at="2018-01-04T17:53:54Z" finished-at="2018-01-04T17:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUpBrowser -->
-        <test-method status="PASS" signature="sensipleLogin()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="sensipleLogin" duration-ms="3564" started-at="2018-01-04T17:52:57Z" finished-at="2018-01-04T17:53:00Z">
+        <test-method status="PASS" signature="sensipleLogin()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="sensipleLogin" duration-ms="3863" started-at="2018-01-04T17:54:06Z" finished-at="2018-01-04T17:54:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sensipleLogin -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="closebrowser" is-config="true" duration-ms="116" started-at="2018-01-04T17:53:00Z" finished-at="2018-01-04T17:53:01Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:qa.rajuverma.programs.TestNg@150c158]" name="closebrowser" is-config="true" duration-ms="113" started-at="2018-01-04T17:54:09Z" finished-at="2018-01-04T17:54:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
