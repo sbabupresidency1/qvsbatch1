@@ -12,6 +12,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
+
 public class TestNg {
 	private static WebDriver driver = null;
 
@@ -29,11 +32,13 @@ public class TestNg {
 
 	@Test
 	public void sensipleLogin() throws InterruptedException, IOException {
-
+		ExtentReports extent = ExtentReports.get(TestNg.class);
+		extent.init("C:\\workspace\\qvsbatch1\\HtmlReport\\myreport1.html", true);
 		Properties prop = null;
 		prop = new Properties();
-		String strFilePathDir = "C:\\workspace\\SeleniumWebDriverMavenWorkOut\\FilePathDirectories.properties";
-		String strORLocatorsFileDir = "C:\\workspace\\SeleniumWebDriverMavenWorkOut\\ORLocator.properties";
+		String strFilePathDir = "C:\\workspace\\qvsbatch1\\FilePathDirectories.properties";
+		String strORLocatorsFileDir = "C:\\workspace\\qvsbatch1\\ORLocator.properties";
+		extent.startTest("Verify Login Scenario");
 		try {
 			prop.load(new FileInputStream(strFilePathDir));
 			System.out.println("FilePathDirectories Properties File :- " + strFilePathDir);
@@ -68,10 +73,10 @@ public class TestNg {
 		System.out.println("getPasswordNameObjectLocator :: " + getPasswordNameObjectLocator);
 
 		CommonMethods.setText_By_xpath(driver, getUserNameObjectLocator, getUserNameValue);
+		extent.log(LogStatus.INFO, "User is Logged Successfully");
+		extent.log(LogStatus.PASS, "User is Logged Successfully");
 		CommonMethods.setText_By_xpath(driver, getPasswordNameObjectLocator, getPasswordValue);
 		CommonMethods.setSleep(3000);
-		String strTS = "SensipleMailLogin";
-		CommonMethods.getScreenshot(driver, strTS);
 
 	}	
 
