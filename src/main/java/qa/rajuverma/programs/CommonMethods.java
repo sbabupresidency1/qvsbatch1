@@ -1,13 +1,17 @@
 package qa.rajuverma.programs;
 
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class CommonMethods {
@@ -329,6 +333,13 @@ public class CommonMethods {
 		}
 
 	}// EndMethod
+	
+	public static void getScreenshot(WebDriver driver, String strTestscreenshotSteps) throws IOException {
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        //The below method will save the screen shot in d drive with name "screenshot.png"
+           FileUtils.copyFile(scrFile, new File("C:\\workspace\\qvsbatch1\\ScreenshotsFolder\\"+strTestscreenshotSteps+".png"));
+		
+	}
 	
 	
 
