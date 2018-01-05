@@ -1,24 +1,21 @@
 package qa.rajuverma.programs;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class CommonMethods {
 
+
+public class CommonMethods {
+	
 	/**
 	 * 
 	 * @param driver
@@ -78,8 +75,8 @@ public class CommonMethods {
 			boolean enableORLocators = driver.findElement(By.id(strLocatorElement)).isEnabled();
 			boolean displayORLocators = driver.findElement(By.id(strLocatorElement)).isDisplayed();
 			if (enableORLocators == true && displayORLocators == true) {
-
 				driver.findElement(By.id(strLocatorElement)).click();
+				
 			} else {
 				System.out.println("Element not found :-");
 			}
@@ -97,7 +94,6 @@ public class CommonMethods {
 			boolean enableORLocators = driver.findElement(By.xpath(strLocatorElement)).isEnabled();
 			boolean displayORLocators = driver.findElement(By.xpath(strLocatorElement)).isDisplayed();
 			if (enableORLocators == true && displayORLocators == true) {
-
 				driver.findElement(By.xpath(strLocatorElement)).click();
 			} else {
 				System.out.println("Element not found :-");
@@ -116,7 +112,6 @@ public class CommonMethods {
 			boolean enableORLocators = driver.findElement(By.className(strLocatorElement)).isEnabled();
 			boolean displayORLocators = driver.findElement(By.className(strLocatorElement)).isDisplayed();
 			if (enableORLocators == true && displayORLocators == true) {
-
 				driver.findElement(By.className(strLocatorElement)).click();
 			} else {
 				System.out.println("Element not found :-");
@@ -135,7 +130,6 @@ public class CommonMethods {
 			boolean enableORLocators = driver.findElement(By.cssSelector(strLocatorElement)).isEnabled();
 			boolean displayORLocators = driver.findElement(By.cssSelector(strLocatorElement)).isDisplayed();
 			if (enableORLocators == true && displayORLocators == true) {
-
 				driver.findElement(By.cssSelector(strLocatorElement)).click();
 			} else {
 				System.out.println("Element not found :-");
@@ -154,7 +148,6 @@ public class CommonMethods {
 			boolean enableORLocators = driver.findElement(By.name(strLocatorElement)).isEnabled();
 			boolean displayORLocators = driver.findElement(By.name(strLocatorElement)).isDisplayed();
 			if (enableORLocators == true && displayORLocators == true) {
-
 				driver.findElement(By.name(strLocatorElement)).click();
 			} else {
 				System.out.println("Element not found :-");
@@ -199,7 +192,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.id(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.id(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.id(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -218,7 +210,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.xpath(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.xpath(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.xpath(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -237,7 +228,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.className(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.className(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.className(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -256,7 +246,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.cssSelector(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.cssSelector(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.cssSelector(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -275,7 +264,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.name(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.name(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.name(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -294,7 +282,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.linkText(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.linkText(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.linkText(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -323,7 +310,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.id(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.id(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.id(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -342,7 +328,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.xpath(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.xpath(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.xpath(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -397,7 +382,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.name(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.name(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.name(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -416,7 +400,6 @@ public class CommonMethods {
 				boolean enableORLocators = driver.findElement(By.linkText(strLocatorElement)).isEnabled();
 				boolean displayORLocators = driver.findElement(By.linkText(strLocatorElement)).isDisplayed();
 				if (enableORLocators == true && displayORLocators == true) {
-
 					driver.findElement(By.linkText(strLocatorElement)).click();
 				} else {
 					System.out.println("Element not found :-");
@@ -840,7 +823,7 @@ public class CommonMethods {
 				Select selectValues = new Select(driver.findElement(By.id(strLocatorElement)));
 				selectValues.selectByVisibleText(strTextAreaValue);
 			} else {
-				System.out.println("Element not found :-");
+				System.out.println("Element not found :-" +strLocatorElement);
 			}
 		} catch (NoSuchElementException e) {
 			System.out.println("selectByVisibleText_By_Id Exception has thrown");
@@ -849,17 +832,17 @@ public class CommonMethods {
 
 	}// EndMethod
 
-	public static void selectByVisibleText_By_xpath(WebDriver driver, String strLocatorElement, String strTextAreaValue) {
+	public static void selectByVisibleText_By_xpath(WebDriver driver, String strLocatorElement, String strTextAreaValue) throws InterruptedException {
 
 		try {
-
+            Thread.sleep(5000);
 			boolean enableORLocators = driver.findElement(By.xpath(strLocatorElement)).isEnabled();
 			boolean displayORLocators = driver.findElement(By.xpath(strLocatorElement)).isDisplayed();
 			if (enableORLocators == true && displayORLocators == true) {
 				Select selectValues = new Select(driver.findElement(By.xpath(strLocatorElement)));
 				selectValues.selectByVisibleText(strTextAreaValue);
 			} else {
-				System.out.println("Element not found :-");
+				System.out.println("Element not found :-" +strLocatorElement);
 			}
 		} catch (NoSuchElementException e) {
 			System.out.println("selectByVisibleText_By_xpath Exception has thrown");

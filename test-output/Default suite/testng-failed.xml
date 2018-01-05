@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="qa.rajuverma.programs.TestNg">
+      <class name="qa.rajuverma.programs.LMSTestNgCase">
         <methods>
+          <include name="sensipleLogin"/>
           <include name="startUpBrowser"/>
           <include name="closebrowser"/>
-          <include name="sensipleLogin"/>
         </methods>
-      </class> <!-- qa.rajuverma.programs.TestNg -->
+      </class> <!-- qa.rajuverma.programs.LMSTestNgCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
