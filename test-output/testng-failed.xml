@@ -3,14 +3,15 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ramyar.testng">
+      <class name="swathy.tasks.Task4AnnotSample">
         <methods>
-          <include name="login"/>
-          <include name="launchbrowser"/>
-          <include name="terminatetest"/>
-          <include name="launchapp"/>
+          <include name="afterClass"/>
+          <include name="urlLaunch"/>
+          <include name="submitButton"/>
+          <include name="submitButton"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- ramyar.testng -->
+      </class> <!-- swathy.tasks.Task4AnnotSample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
