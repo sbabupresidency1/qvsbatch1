@@ -91,7 +91,9 @@ public class Test1 {
 				
 				CommonMethods.setText_By_xpath(driver, getUserNameObjectLocator, getUserNameValue);
 				CommonMethods.setText_By_xpath(driver, getPasswordNameObjectLocator, getPasswordValue);
-				CommonMethods.setSleep(3000);				
+				CommonMethods.setSleep(3000);
+				String strTS = "SensipleMailLogin";
+				CommonMethods.getScreenshot(driver, strTS);
 
 				driver.close();
 				// driver.quit();
