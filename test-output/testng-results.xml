@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="10324" started-at="2018-01-16T09:02:22Z" finished-at="2018-01-16T09:02:32Z">
     <groups>
     </groups>
@@ -34,4 +35,26 @@
       </class> <!-- swathy.tasks.Task4AnnotSample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
+=======
+  <suite name="Sample test Suite" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
+    <groups>
+    </groups>
+    <test name="Sample test" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
+      <class name="parkavi1.AnotExample2">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="openbrowser" is-config="true" duration-ms="12338" started-at="2018-01-16T14:13:04Z" finished-at="2018-01-16T14:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="testmethodone" duration-ms="25" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="closebrowser" is-config="true" duration-ms="733" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- parkavi1.AnotExample2 -->
+    </test> <!-- Sample test -->
+  </suite> <!-- Sample test Suite -->
+>>>>>>> 0467dd9ce5beb72440e6cfee667832a6a05d8687
 </testng-results>

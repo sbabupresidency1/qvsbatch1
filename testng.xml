@@ -5,7 +5,11 @@
   
    <test name = "Sample test">
       <classes>
+<<<<<<< HEAD
          <class name = "swathy.tasks.Task4AnnotSample" />
+=======
+         <class name = "parkavi1.AnotExample2" />
+>>>>>>> 0467dd9ce5beb72440e6cfee667832a6a05d8687
       </classes>
    </test>
 </suite>	
