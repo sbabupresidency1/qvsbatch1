@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13126" started-at="2018-01-16T06:30:36Z" finished-at="2018-01-16T06:30:49Z">
+  <suite name="Sample test Suite" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13126" started-at="2018-01-16T06:30:36Z" finished-at="2018-01-16T06:30:49Z">
+    <test name="Sample test" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
       <class name="parkavi1.AnotExample2">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:parkavi1.AnotExample2@4e9ba398]" name="openbrowser" is-config="true" duration-ms="12282" started-at="2018-01-16T12:00:36Z" finished-at="2018-01-16T12:00:48Z">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="openbrowser" is-config="true" duration-ms="12338" started-at="2018-01-16T14:13:04Z" finished-at="2018-01-16T14:13:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="testmethodone()[pri:0, instance:parkavi1.AnotExample2@4e9ba398]" name="testmethodone" duration-ms="45" started-at="2018-01-16T12:00:48Z" finished-at="2018-01-16T12:00:48Z">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="testmethodone" duration-ms="25" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmethodone -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:parkavi1.AnotExample2@4e9ba398]" name="closebrowser" is-config="true" duration-ms="778" started-at="2018-01-16T12:00:48Z" finished-at="2018-01-16T12:00:49Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="closebrowser" is-config="true" duration-ms="733" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- parkavi1.AnotExample2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Sample test -->
+  </suite> <!-- Sample test Suite -->
 </testng-results>

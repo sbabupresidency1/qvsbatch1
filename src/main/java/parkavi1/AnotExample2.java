@@ -20,6 +20,7 @@ public class AnotExample2 {
   driver.manage().window().maximize();
   Thread.sleep(2000);
   driver.get("http://only-testing-blog.blogspot.in/2013/11/new-test.html");
+  Thread.sleep(2000);
  }
 
  //@AfterMethod defines this method has to run after every @Test methods
@@ -33,7 +34,7 @@ public class AnotExample2 {
  public void testmethodone() {
    String title = driver.getTitle();
    System.out.print("Current page title is : "+title);
-   System.out.print("\n'TestNGOne -> TestNGOnePack -> ClassOne -> testmethodone' has been executed successfully");
+   //System.out.print("\n'TestNGOne -> TestNGOnePack -> ClassOne -> testmethodone' has been executed successfully");
  }
 }
 
