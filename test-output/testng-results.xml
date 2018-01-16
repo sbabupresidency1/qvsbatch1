@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
@@ -47,6 +48,41 @@
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- com.ashwanth.tests.Test99GuruLogin -->
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10324" started-at="2018-01-16T09:02:22Z" finished-at="2018-01-16T09:02:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10324" started-at="2018-01-16T09:02:22Z" finished-at="2018-01-16T09:02:32Z">
+      <class name="swathy.tasks.Task4AnnotSample">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="launchBrowser" is-config="true" duration-ms="10289" started-at="2018-01-16T14:32:12Z" finished-at="2018-01-16T14:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="urlLaunch()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="urlLaunch" is-config="true" duration-ms="3191" started-at="2018-01-16T14:32:22Z" finished-at="2018-01-16T14:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="submitButton()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="submitButton" is-config="true" duration-ms="4163" started-at="2018-01-16T14:32:25Z" finished-at="2018-01-16T14:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButton -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="getTitle" duration-ms="2864" started-at="2018-01-16T14:32:30Z" finished-at="2018-01-16T14:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-16T14:32:32Z" finished-at="2018-01-16T14:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="closeBrowser" is-config="true" duration-ms="2772" started-at="2018-01-16T14:32:33Z" finished-at="2018-01-16T14:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- swathy.tasks.Task4AnnotSample -->
+>>>>>>> caffb4bf85f576c28b4a171a532bfd2f55085785
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
