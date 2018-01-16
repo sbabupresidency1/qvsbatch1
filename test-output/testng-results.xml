@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
+  <suite name="Default suite" duration-ms="6681" started-at="2018-01-16T10:36:19Z" finished-at="2018-01-16T10:36:26Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
-      <class name="parkavi1.AnotExample2">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="openbrowser" is-config="true" duration-ms="12338" started-at="2018-01-16T14:13:04Z" finished-at="2018-01-16T14:13:16Z">
+    <test name="Default test" duration-ms="6681" started-at="2018-01-16T10:36:19Z" finished-at="2018-01-16T10:36:26Z">
+      <class name="com.ashwanth.tests.Test99GuruLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ashwanth.tests.Test99GuruLogin@78c03f1f]" name="setup" is-config="true" duration-ms="6656" started-at="2018-01-16T16:06:19Z" finished-at="2018-01-16T16:06:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="testmethodone()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="testmethodone" duration-ms="25" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:16Z">
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.ashwanth.tests.Test99GuruLogin@78c03f1f]" name="login" duration-ms="9" started-at="2018-01-16T16:06:26Z" finished-at="2018-01-16T16:06:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ashwanth.tests.Test99GuruLogin.login(Test99GuruLogin.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testmethodone -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="closebrowser" is-config="true" duration-ms="733" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- parkavi1.AnotExample2 -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+        </test-method> <!-- login -->
+      </class> <!-- com.ashwanth.tests.Test99GuruLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
