@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="81" started-at="2018-01-16T04:39:20Z" finished-at="2018-01-16T04:39:20Z">
+  <suite name="Default suite" duration-ms="13126" started-at="2018-01-16T06:30:36Z" finished-at="2018-01-16T06:30:49Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="81" started-at="2018-01-16T04:39:20Z" finished-at="2018-01-16T04:39:20Z">
-      <class name="parkavi1.TaskFourAnot">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="beforeSuite" is-config="true" duration-ms="33" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
+    <test name="Default test" duration-ms="13126" started-at="2018-01-16T06:30:36Z" finished-at="2018-01-16T06:30:49Z">
+      <class name="parkavi1.AnotExample2">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:parkavi1.AnotExample2@4e9ba398]" name="openbrowser" is-config="true" duration-ms="12282" started-at="2018-01-16T12:00:36Z" finished-at="2018-01-16T12:00:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="beforeTest" is-config="true" duration-ms="3" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:parkavi1.AnotExample2@4e9ba398]" name="testmethodone" duration-ms="45" started-at="2018-01-16T12:00:48Z" finished-at="2018-01-16T12:00:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
+        </test-method> <!-- testmethodone -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:parkavi1.AnotExample2@4e9ba398]" name="closebrowser" is-config="true" duration-ms="778" started-at="2018-01-16T12:00:48Z" finished-at="2018-01-16T12:00:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="testCase1" duration-ms="12" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="testCase2" duration-ms="4" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:parkavi1.TaskFourAnot@42607a4f]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-01-16T10:09:20Z" finished-at="2018-01-16T10:09:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- parkavi1.TaskFourAnot -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+        </test-method> <!-- closebrowser -->
+      </class> <!-- parkavi1.AnotExample2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

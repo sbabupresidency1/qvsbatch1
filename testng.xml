@@ -5,7 +5,7 @@
   
    <test name = "Sample test">
       <classes>
-         <class name = "parkavi1.TaskFourAnot" />
+         <class name = "parkavi1.AnotExample2" />
       </classes>
    </test>
 </suite>	
