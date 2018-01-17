@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -27,17 +28,21 @@ import org.testng.annotations.BeforeSuite;
  */
 public class Task4AnnotSample {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
+=======
+
+>>>>>>> 8cc7995a7893fa74077af9ede4a2415ac0f7b977
 	WebDriver driver;
 	
-	//@Test
+	@Test
 	
-	//public void getTitle()
-	//{
-	//	String name=driver.getTitle();
-	//	System.out.println(name);
-	//}
+	public void getTitle()
+	{
+		String name=driver.getTitle();
+		System.out.println(name);
+	}
 	@BeforeClass
 	public void submitButton() {
 		driver.findElement(By.name("username")).sendKeys("swathy.suresh@sensiple.com");
@@ -55,13 +60,13 @@ public class Task4AnnotSample {
 		driver.get("http://mail.sensiple.com/");
 	}
 
-	 @Test
-	public void afterTest() throws InterruptedException {
-		 Thread.sleep(2000);
-		 Alert alert = driver.switchTo().alert();
-		alert.dismiss();
+	// @Test
+	//public void afterTest() throws InterruptedException {
+		 //Thread.sleep(2000);
+		 //Alert alert = driver.switchTo().alert();
+		//alert.dismiss();
 		// driver.findElement(By.id("DWT71_button3_title")).click();
-	 }
+	 //}
 	
 	//  }
 
@@ -73,6 +78,17 @@ public class Task4AnnotSample {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+	 @AfterSuite
+	 public void closeBrowser()
+	 {
+	    driver.close();
+	 }
+
+
+>>>>>>> 8cc7995a7893fa74077af9ede4a2415ac0f7b977
 	// @AfterSuite
 	// public void closeBrowser() {
 	//    driver.close();
@@ -84,5 +100,6 @@ public class Task4AnnotSample {
 	 }
 >>>>>>> 4bc3f7c83497116094b5a9b173dbedbbe675a752
 >>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
+
 
 }
