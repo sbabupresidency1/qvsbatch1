@@ -19,14 +19,17 @@ public class common_method {
 	public static WebDriver OpenApp(String BrowserName, String url) {
 		fn_LaunchBrowser(BrowserName);
 		fn_OpenURL(url);
-
+      
 		return driver;
 	}
 //To invoke URL
 	public static void fn_OpenURL(String url) {
-		driver.get("http://mail.sensiple.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.get(url);
 	}
+	
+		
+	
 //To launch browser
 	public static WebDriver fn_LaunchBrowser(String browsername) {
 		if (browsername == "CH") {
@@ -34,7 +37,7 @@ public class common_method {
 					"D:\\Selenium Jar files\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browsername == "FF") {
-			System.setProperty("webdriver.chrome.driver", "D:\\Selenium jar files\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\Selenium jar files\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browsername == "IE") {
 			System.setProperty("webdriver.ie.driver",
