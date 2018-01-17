@@ -1,37 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4242" started-at="2018-01-17T07:14:00Z" finished-at="2018-01-17T07:14:04Z">
+<<<<<<< HEAD
+  <suite name="Default suite" duration-ms="134" started-at="2018-01-17T08:41:30Z" finished-at="2018-01-17T08:41:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4242" started-at="2018-01-17T07:14:00Z" finished-at="2018-01-17T07:14:04Z">
+    <test name="Default test" duration-ms="134" started-at="2018-01-17T08:41:30Z" finished-at="2018-01-17T08:41:30Z">
+      <class name="com.ashwanth.tests.Test99GuruLogin">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.ashwanth.tests.Test99GuruLogin@78c03f1f]" name="setup" is-config="true" duration-ms="0" started-at="2018-01-17T14:11:30Z" finished-at="2018-01-17T14:11:30Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\Drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.ashwanth.tests.Test99GuruLogin.setup(Test99GuruLogin.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.ashwanth.tests.Test99GuruLogin@78c03f1f]" name="login" duration-ms="2" started-at="2018-01-17T14:11:30Z" finished-at="2018-01-17T14:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.ashwanth.tests.Test99GuruLogin -->
+=======
+  <suite name="Default suite" duration-ms="14209" started-at="2018-01-17T08:41:16Z" finished-at="2018-01-17T08:41:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14209" started-at="2018-01-17T08:41:16Z" finished-at="2018-01-17T08:41:30Z">
       <class name="swathy.tasks.Task4AnnotSample">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="launchBrowser" is-config="true" duration-ms="5913" started-at="2018-01-17T12:43:54Z" finished-at="2018-01-17T12:44:00Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="launchBrowser" is-config="true" duration-ms="13470" started-at="2018-01-17T14:11:03Z" finished-at="2018-01-17T14:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="urlLaunch()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="urlLaunch" is-config="true" duration-ms="1389" started-at="2018-01-17T12:44:00Z" finished-at="2018-01-17T12:44:01Z">
+        <test-method status="PASS" signature="urlLaunch()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="urlLaunch" is-config="true" duration-ms="3879" started-at="2018-01-17T14:11:16Z" finished-at="2018-01-17T14:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method status="PASS" signature="submitButton()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="submitButton" is-config="true" duration-ms="2809" started-at="2018-01-17T12:44:01Z" finished-at="2018-01-17T12:44:04Z">
+        <test-method status="PASS" signature="submitButton()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="submitButton" is-config="true" duration-ms="8434" started-at="2018-01-17T14:11:20Z" finished-at="2018-01-17T14:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitButton -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="getTitle" duration-ms="18" started-at="2018-01-17T12:44:04Z" finished-at="2018-01-17T12:44:04Z">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="getTitle" duration-ms="1770" started-at="2018-01-17T14:11:29Z" finished-at="2018-01-17T14:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-17T12:44:04Z" finished-at="2018-01-17T12:44:04Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-17T14:11:30Z" finished-at="2018-01-17T14:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="closeBrowser" is-config="true" duration-ms="2398" started-at="2018-01-17T12:44:04Z" finished-at="2018-01-17T12:44:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="closeBrowser" is-config="true" duration-ms="2942" started-at="2018-01-17T14:11:31Z" finished-at="2018-01-17T14:11:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- swathy.tasks.Task4AnnotSample -->
+>>>>>>> f846c5ae2c47ef961c6d7fca9c530a0b36bbe863
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

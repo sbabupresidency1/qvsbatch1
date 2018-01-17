@@ -3,22 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.ashwanth.tests.PageObjectModel">
+      <class name="com.ashwanth.tests.Test99GuruLogin">
         <methods>
-<<<<<<< HEAD
-          <include name="afterClass"/>
-          <include name="urlLaunch"/>
-          <include name="afterTest"/>
-          <include name="closeBrowser"/>
-          <include name="submitButton"/>
-          <include name="launchBrowser"/>
-=======
-          <include name="DriverLaunch"/>
-          <include name="Logout"/>
-          <include name="Login"/>
->>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
+          <include name="setup"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.ashwanth.tests.PageObjectModel -->
+      </class> <!-- com.ashwanth.tests.Test99GuruLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
