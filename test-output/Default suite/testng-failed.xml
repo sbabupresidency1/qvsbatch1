@@ -3,15 +3,21 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="swathy.tasks.Task4AnnotSample">
+      <class name="com.ashwanth.tests.PageObjectModel">
         <methods>
+<<<<<<< HEAD
           <include name="afterClass"/>
           <include name="urlLaunch"/>
           <include name="afterTest"/>
           <include name="submitButton"/>
           <include name="launchBrowser"/>
+=======
+          <include name="DriverLaunch"/>
+          <include name="Logout"/>
+          <include name="Login"/>
+>>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
         </methods>
-      </class> <!-- swathy.tasks.Task4AnnotSample -->
+      </class> <!-- com.ashwanth.tests.PageObjectModel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

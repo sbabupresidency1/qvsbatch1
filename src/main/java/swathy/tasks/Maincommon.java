@@ -1,8 +1,8 @@
 package swathy.tasks;
 
-public class Mainstring extends Simplestrings {
+public class Maincommon extends Simplestrings {
 	
-	
+	//String str = new String("Hi");
 public static void main(String[] args) {
 	reverse("hello");
 	concatString("hi","hello");

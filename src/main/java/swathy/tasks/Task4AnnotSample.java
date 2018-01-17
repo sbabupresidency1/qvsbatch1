@@ -26,6 +26,9 @@ import org.testng.annotations.BeforeSuite;
  * Task Number: 4
  */
 public class Task4AnnotSample {
+<<<<<<< HEAD
+	
+=======
 	WebDriver driver;
 	
 	//@Test
@@ -69,9 +72,17 @@ public class Task4AnnotSample {
 		driver.manage().window().maximize();
 	}
 
+<<<<<<< HEAD
 	// @AfterSuite
 	// public void closeBrowser() {
 	//    driver.close();
 	// }
+=======
+	 @AfterSuite
+	 public void closeBrowser() {
+	    driver.close();
+	 }
+>>>>>>> 4bc3f7c83497116094b5a9b173dbedbbe675a752
+>>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
 
 }
