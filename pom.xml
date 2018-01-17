@@ -72,6 +72,12 @@
     <version>3.8.1</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>1.4</version>
+</dependency>
 
 		
 		<dependency>
@@ -88,9 +94,53 @@
 			<version>6.13.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+<dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>3.0</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+<dependency>
+    <groupId>org.uncommons</groupId>
+    <artifactId>reportng</artifactId>
+    <version>1.1.4</version>
+    <scope>test</scope>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/velocity/velocity-dep -->
+<dependency>
+    <groupId>velocity</groupId>
+    <artifactId>velocity-dep</artifactId>
+    <version>1.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.8.8</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.14.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-ie-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-ie-driver</artifactId>
+    <version>3.8.1</version>
+</dependency>
 
 
-
+	
 	</dependencies>
 	
 	

@@ -1,0 +1,7 @@
+[ 05-01-2018 05:35:27 PM ]: Broswer started up successfully for firefox
+[ 05-01-2018 05:35:41 PM ]: Username Value rajuverma is entered successfully
+[ 05-01-2018 05:35:41 PM ]: Password Value rajuverma is entered successfully
+[ 05-01-2018 05:35:42 PM ]: Sign Button is clicked successfully
+[ 05-01-2018 05:35:45 PM ]: Create Request is clicked successfully
+[ 05-01-2018 05:35:45 PM ]: Leave Request is clicked successfully
+[ 05-01-2018 05:35:51 PM ]: Leave Type Dropdown value Earned Leave is selected successfully

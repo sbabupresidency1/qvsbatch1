@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="qvsbatch1 by packages" duration-ms="12423" started-at="2018-01-17T04:59:26Z" finished-at="2018-01-17T04:59:38Z">
     <groups>
     </groups>
@@ -42,4 +43,22 @@
       </class> <!-- ramyar.testng -->
     </test> <!-- ramyar -->
   </suite> <!-- qvsbatch1 by packages -->
+=======
+  <suite name="Default suite" duration-ms="8" started-at="2018-01-17T11:14:49Z" finished-at="2018-01-17T11:14:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8" started-at="2018-01-17T11:14:49Z" finished-at="2018-01-17T11:14:49Z">
+      <class name="com.ashwanth.tests.PageObjectModel">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.ashwanth.tests.PageObjectModel@3108bc]" name="LaunchBrowser" is-config="true" duration-ms="6529" started-at="2018-01-17T16:44:42Z" finished-at="2018-01-17T16:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.ashwanth.tests.PageObjectModel@3108bc]" name="Login" is-config="true" duration-ms="2249" started-at="2018-01-17T16:44:49Z" finished-at="2018-01-17T16:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.ashwanth.tests.PageObjectModel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> b415768194ec527b8011fc0af292d2b0f7790cdd
 </testng-results>

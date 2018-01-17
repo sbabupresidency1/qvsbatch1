@@ -55,8 +55,8 @@ public class BrowserlaunchTask {
 		Thread.sleep(4000);
 		driver.findElement(By.id("DWT75_button3_title")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("zli__CLV-main__-1664")).click();
-		Thread.sleep(2000);
+		//driver.findElement(By.id("zli__CLV-main__-1664")).click();
+		//Thread.sleep(2000);
 		//driver.findElement(By.id("zb__NEW_MENU_title")).click();
 		//driver.findElement(By.xpath("//*[@id='DWT453']")).sendKeys("parkavi.umapathy@sensiple.com");
 		driver.findElement(By.id("DWT31_dropdown")).click();
