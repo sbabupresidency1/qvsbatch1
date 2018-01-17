@@ -1,60 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="10324" started-at="2018-01-16T09:02:22Z" finished-at="2018-01-16T09:02:32Z">
+  <suite name="Default suite" duration-ms="12" started-at="2018-01-17T04:51:24Z" finished-at="2018-01-17T04:51:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10324" started-at="2018-01-16T09:02:22Z" finished-at="2018-01-16T09:02:32Z">
-      <class name="swathy.tasks.Task4AnnotSample">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="launchBrowser" is-config="true" duration-ms="10289" started-at="2018-01-16T14:32:12Z" finished-at="2018-01-16T14:32:22Z">
+    <test name="Default test" duration-ms="12" started-at="2018-01-17T04:51:24Z" finished-at="2018-01-17T04:51:24Z">
+      <class name="com.ashwanth.tests.PageObjectModel">
+        <test-method status="PASS" signature="DriverLaunch()[pri:0, instance:com.ashwanth.tests.PageObjectModel@6b09bb57]" name="DriverLaunch" is-config="true" duration-ms="13882" started-at="2018-01-17T10:21:10Z" finished-at="2018-01-17T10:21:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="urlLaunch()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="urlLaunch" is-config="true" duration-ms="3191" started-at="2018-01-16T14:32:22Z" finished-at="2018-01-16T14:32:25Z">
+        </test-method> <!-- DriverLaunch -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:com.ashwanth.tests.PageObjectModel@6b09bb57]" name="Login" is-config="true" duration-ms="0" started-at="2018-01-17T10:21:24Z" finished-at="2018-01-17T10:21:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ashwanth.tests.PageObjectModel.Login(PageObjectModel.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:322)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- urlLaunch -->
-        <test-method status="PASS" signature="submitButton()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="submitButton" is-config="true" duration-ms="4163" started-at="2018-01-16T14:32:25Z" finished-at="2018-01-16T14:32:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitButton -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="getTitle" duration-ms="2864" started-at="2018-01-16T14:32:30Z" finished-at="2018-01-16T14:32:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-16T14:32:32Z" finished-at="2018-01-16T14:32:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@7276c8cd]" name="closeBrowser" is-config="true" duration-ms="2772" started-at="2018-01-16T14:32:33Z" finished-at="2018-01-16T14:32:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- swathy.tasks.Task4AnnotSample -->
+        </test-method> <!-- Login -->
+      </class> <!-- com.ashwanth.tests.PageObjectModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
-=======
-  <suite name="Sample test Suite" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
-    <groups>
-    </groups>
-    <test name="Sample test" duration-ms="13120" started-at="2018-01-16T08:43:04Z" finished-at="2018-01-16T08:43:17Z">
-      <class name="parkavi1.AnotExample2">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="openbrowser" is-config="true" duration-ms="12338" started-at="2018-01-16T14:13:04Z" finished-at="2018-01-16T14:13:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="testmethodone()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="testmethodone" duration-ms="25" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testmethodone -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:parkavi1.AnotExample2@56235b8e]" name="closebrowser" is-config="true" duration-ms="733" started-at="2018-01-16T14:13:16Z" finished-at="2018-01-16T14:13:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- parkavi1.AnotExample2 -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
->>>>>>> 0467dd9ce5beb72440e6cfee667832a6a05d8687
 </testng-results>
