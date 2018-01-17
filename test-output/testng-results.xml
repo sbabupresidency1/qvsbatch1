@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="3141" started-at="2018-01-17T04:45:45Z" finished-at="2018-01-17T04:45:48Z">
     <groups>
     </groups>
@@ -53,6 +54,22 @@ Session ID: f44af003480785fd37ca274e761f5a65
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:987)
 	at swathy.tasks.Task4AnnotSample.afterTest(Task4AnnotSample.java:58)
+=======
+  <suite name="Default suite" duration-ms="12" started-at="2018-01-17T04:51:24Z" finished-at="2018-01-17T04:51:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12" started-at="2018-01-17T04:51:24Z" finished-at="2018-01-17T04:51:24Z">
+      <class name="com.ashwanth.tests.PageObjectModel">
+        <test-method status="PASS" signature="DriverLaunch()[pri:0, instance:com.ashwanth.tests.PageObjectModel@6b09bb57]" name="DriverLaunch" is-config="true" duration-ms="13882" started-at="2018-01-17T10:21:10Z" finished-at="2018-01-17T10:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverLaunch -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:com.ashwanth.tests.PageObjectModel@6b09bb57]" name="Login" is-config="true" duration-ms="0" started-at="2018-01-17T10:21:24Z" finished-at="2018-01-17T10:21:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ashwanth.tests.PageObjectModel.Login(PageObjectModel.java:40)
+>>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -61,11 +78,15 @@ Session ID: f44af003480785fd37ca274e761f5a65
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+<<<<<<< HEAD
 	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+=======
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:322)
+>>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
 	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -77,11 +98,19 @@ Session ID: f44af003480785fd37ca274e761f5a65
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
+<<<<<<< HEAD
           </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- swathy.tasks.Task4AnnotSample -->
+=======
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.ashwanth.tests.PageObjectModel -->
+>>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
