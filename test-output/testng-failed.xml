@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="swathy.tasks.Task4AnnotSample">
+      <class name="com.ashwanth.tests.Test99GuruLogin">
         <methods>
-          <include name="afterClass"/>
-          <include name="urlLaunch"/>
-          <include name="afterTest"/>
-          <include name="closeBrowser"/>
-          <include name="submitButton"/>
-          <include name="launchBrowser"/>
+          <include name="setup"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- swathy.tasks.Task4AnnotSample -->
+      </class> <!-- com.ashwanth.tests.Test99GuruLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
