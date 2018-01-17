@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 //import org.testng.annotations.BeforeMethod;
 //import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,23 +20,17 @@ import org.testng.annotations.BeforeSuite;
  * Created By: Swathy.S 
  * Created Date: 16th january '18 
  * Created Time: 10:30AM
- * Modified Date:
- * Modified Time: 
+ * Modified Date:17th january '18
+ * Modified Time:2:10PM 
  * Concept Used: TestNG annotations
  * Task Number: 4
  */
 public class Task4AnnotSample {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	
-=======
-=======
 
->>>>>>> 8cc7995a7893fa74077af9ede4a2415ac0f7b977
 	WebDriver driver;
-	
+
 	@Test
-	
+
 	public void getTitle()
 	{
 		String name=driver.getTitle();
@@ -62,12 +55,12 @@ public class Task4AnnotSample {
 
 	// @Test
 	//public void afterTest() throws InterruptedException {
-		 //Thread.sleep(2000);
-		 //Alert alert = driver.switchTo().alert();
-		//alert.dismiss();
-		// driver.findElement(By.id("DWT71_button3_title")).click();
-	 //}
-	
+	//Thread.sleep(2000);
+	//Alert alert = driver.switchTo().alert();
+	//alert.dismiss();
+	// driver.findElement(By.id("DWT71_button3_title")).click();
+	//}
+
 	//  }
 
 	@BeforeSuite
@@ -77,29 +70,11 @@ public class Task4AnnotSample {
 		driver.manage().window().maximize();
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-	 @AfterSuite
-	 public void closeBrowser()
-	 {
-	    driver.close();
-	 }
-
-
->>>>>>> 8cc7995a7893fa74077af9ede4a2415ac0f7b977
-	// @AfterSuite
-	// public void closeBrowser() {
-	//    driver.close();
-	// }
-=======
-	 @AfterSuite
-	 public void closeBrowser() {
-	    driver.close();
-	 }
->>>>>>> 4bc3f7c83497116094b5a9b173dbedbbe675a752
->>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
-
+	@AfterSuite
+	public void closeBrowser()
+	{
+		driver.close();
+	}
 
 }

@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4242" started-at="2018-01-17T07:14:00Z" finished-at="2018-01-17T07:14:04Z">
+  <suite name="Default suite" duration-ms="14209" started-at="2018-01-17T08:41:16Z" finished-at="2018-01-17T08:41:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4242" started-at="2018-01-17T07:14:00Z" finished-at="2018-01-17T07:14:04Z">
+    <test name="Default test" duration-ms="14209" started-at="2018-01-17T08:41:16Z" finished-at="2018-01-17T08:41:30Z">
       <class name="swathy.tasks.Task4AnnotSample">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="launchBrowser" is-config="true" duration-ms="5913" started-at="2018-01-17T12:43:54Z" finished-at="2018-01-17T12:44:00Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="launchBrowser" is-config="true" duration-ms="13470" started-at="2018-01-17T14:11:03Z" finished-at="2018-01-17T14:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="urlLaunch()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="urlLaunch" is-config="true" duration-ms="1389" started-at="2018-01-17T12:44:00Z" finished-at="2018-01-17T12:44:01Z">
+        <test-method status="PASS" signature="urlLaunch()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="urlLaunch" is-config="true" duration-ms="3879" started-at="2018-01-17T14:11:16Z" finished-at="2018-01-17T14:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method status="PASS" signature="submitButton()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="submitButton" is-config="true" duration-ms="2809" started-at="2018-01-17T12:44:01Z" finished-at="2018-01-17T12:44:04Z">
+        <test-method status="PASS" signature="submitButton()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="submitButton" is-config="true" duration-ms="8434" started-at="2018-01-17T14:11:20Z" finished-at="2018-01-17T14:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitButton -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="getTitle" duration-ms="18" started-at="2018-01-17T12:44:04Z" finished-at="2018-01-17T12:44:04Z">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="getTitle" duration-ms="1770" started-at="2018-01-17T14:11:29Z" finished-at="2018-01-17T14:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-17T12:44:04Z" finished-at="2018-01-17T12:44:04Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-17T14:11:30Z" finished-at="2018-01-17T14:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@3632be31]" name="closeBrowser" is-config="true" duration-ms="2398" started-at="2018-01-17T12:44:04Z" finished-at="2018-01-17T12:44:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:swathy.tasks.Task4AnnotSample@4e9ba398]" name="closeBrowser" is-config="true" duration-ms="2942" started-at="2018-01-17T14:11:31Z" finished-at="2018-01-17T14:11:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
