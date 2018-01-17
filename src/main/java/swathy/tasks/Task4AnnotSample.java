@@ -24,9 +24,7 @@ import org.testng.annotations.AfterSuite;
  * Task Number: 4
  */
 public class Task4AnnotSample {
-<<<<<<< HEAD
-	
-=======
+
 	WebDriver driver;
 	
 	@Test
@@ -66,9 +64,10 @@ public class Task4AnnotSample {
 	}
 
 	 @AfterSuite
-	 public void closeBrowser() {
+	 public void closeBrowser()
+	 {
 	    driver.close();
 	 }
->>>>>>> 4bc3f7c83497116094b5a9b173dbedbbe675a752
+
 
 }
