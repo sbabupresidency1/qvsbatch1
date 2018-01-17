@@ -30,13 +30,13 @@ public class Task4AnnotSample {
 
 	WebDriver driver;
 	
-	//@Test
+	@Test
 	
-	//public void getTitle()
-	//{
-	//	String name=driver.getTitle();
-	//	System.out.println(name);
-	//}
+	public void getTitle()
+	{
+		String name=driver.getTitle();
+		System.out.println(name);
+	}
 	@BeforeClass
 	public void submitButton() {
 		driver.findElement(By.name("username")).sendKeys("swathy.suresh@sensiple.com");
