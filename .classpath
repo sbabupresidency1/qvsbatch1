@@ -22,7 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/SeleniumBackUp/lib/selenium-ie-driver-3.8.1.jar"/>
-	<classpathentry kind="lib" path="C:/SeleniumBackUp/lib/IEDriverServer_Win32_3.8.0.zip"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
