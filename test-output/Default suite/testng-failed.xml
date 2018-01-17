@@ -9,6 +9,7 @@
           <include name="afterClass"/>
           <include name="urlLaunch"/>
           <include name="afterTest"/>
+          <include name="closeBrowser"/>
           <include name="submitButton"/>
           <include name="launchBrowser"/>
 =======

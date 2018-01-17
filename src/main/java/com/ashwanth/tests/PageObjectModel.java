@@ -37,7 +37,6 @@ public class PageObjectModel {
 	@Test
 	   public void Login() {
 		  
-		   driver.manage().timeouts().implicitlyWait(06, TimeUnit.SECONDS);
 		   
 	     LogIn_Page.txtbx_UserName(driver).sendKeys("testuser_1");
 	 
