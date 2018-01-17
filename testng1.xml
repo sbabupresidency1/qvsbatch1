@@ -1,12 +1,12 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name = "Sample test Suite">
-  <parameter name="appURL" value="https://www.google.co.in/"/>
-<parameter name="browserType" value="chrome"/>
-   <test name = "Sample test1">
-      <classes>
-         <class name = "com.ashwanth.pack.base.TestBaseSetup" />
-      </classes>
-   </test>
-</suite>	
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+ 
+	<test name="Page Object Model Project">
+		<classes>
+			<class name="com.ashwanth.tests.PageObjectModel" /> 
+			
+		</classes>	
+	</test> 
+	
+</suite>
