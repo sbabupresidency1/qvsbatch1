@@ -1,6 +1,5 @@
 package parkavi1;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -32,7 +31,13 @@ public class Trial1 {
 		driver.close();
 	}
 	
-	
+	/*public static void login()
+	{
+		driver.findElement(By.id("j_username")).sendKeys("parkavi.umapathy@sensiple.com");
+		driver.findElement(By.id("j_password")).sendKeys("Parkavi@1234");
+        driver .findElement(By.className("btn btn-lg btn-primary btn-block")).click();
+	}*/
+
 	
 
 
