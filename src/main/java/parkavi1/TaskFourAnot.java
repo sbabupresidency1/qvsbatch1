@@ -13,7 +13,8 @@ package parkavi1;
 
 	public class TaskFourAnot  {
 	   // test case 1
-	   @Test
+	 /*
+		@Test
 	   public void testCase1() {
 	      System.out.println("in test case 1");
 	   }
@@ -52,7 +53,7 @@ package parkavi1;
 	   @AfterTest
 	   public void afterTest() {
 	      System.out.println("in afterTest");
-	   }
+	   }  */
 
 	   @BeforeSuite
 	   public void beforeSuite() {
