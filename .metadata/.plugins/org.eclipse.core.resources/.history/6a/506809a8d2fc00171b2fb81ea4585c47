@@ -1,0 +1,42 @@
+package qvs.swathyframework;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CrmbdeFunc {
+
+
+	/*
+	 * Created By: Swathy.S 
+	 * Created Date: 18th January '18
+	 * Created Time: 5:30PM
+	 * Concept Used: bde1 Activities 
+	 * Task Number: 1
+	 */
+
+	public static void main(String[] args) throws InterruptedException  {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumBackUp\\lib\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		//To go to the below mail url and login using username and password
+		driver.manage().window().maximize();
+
+		driver.get("https://sensiple-dev.crm.dynamics.com/");
+
+		//Name locator
+
+		driver.findElement(By.id("i0116")).sendKeys("bde1@sensiple4.onmicrosoft.com");
+		driver.findElement(By.id("idSIButton9")).click();
+		driver.findElement(By.id("i0118")).sendKeys("Sensiple@2017");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[4]/div/div/div[2]/input")).click(); 
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@value='Yes']")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//span[@title='Sales']")).click();
+	}
+
+}
+

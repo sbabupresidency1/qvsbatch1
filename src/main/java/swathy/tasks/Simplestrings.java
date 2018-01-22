@@ -1,7 +1,7 @@
 package swathy.tasks;
 
 public class Simplestrings{
-	static String string;
+
 
 	public static void reverse(String input){
 		String reverse = new StringBuffer(input).reverse().toString();
@@ -25,14 +25,15 @@ public class Simplestrings{
 		else
 			System.out.println("provide correct strings");
 	}
-	
+
 	public static void compareByLoc(String input1, String input2) {
 		if(input1==input2)
 		{
-			System.out.println("Strings are equal");
+			System.out.println("Strings are in different location");
 		}
 		else
-			System.out.println("provide correct strings");
+			System.out.println("pr");
 	}
 	
+
 }
