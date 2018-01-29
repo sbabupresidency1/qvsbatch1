@@ -3,31 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="com.ashwanth.tests.Test99GuruLogin">
+      <class name="qa.rajuverma.programs.LMSTestNgCase">
         <methods>
-          <include name="setup"/>
-          <include name="login"/>
+          <include name="sensipleLogin"/>
+          <include name="startUpBrowser"/>
         </methods>
-      </class> <!-- com.ashwanth.tests.Test99GuruLogin -->
-=======
-      <class name="com.ashwanth.tests.PageObjectModel">
-        <methods>
-<<<<<<< HEAD
-          <include name="afterClass"/>
-          <include name="urlLaunch"/>
-          <include name="afterTest"/>
-          <include name="closeBrowser"/>
-          <include name="submitButton"/>
-          <include name="launchBrowser"/>
-=======
-          <include name="DriverLaunch"/>
-          <include name="Logout"/>
-          <include name="Login"/>
->>>>>>> b5a5c8df3299167c602d55e4f7239f00941ebde5
-        </methods>
-      </class> <!-- com.ashwanth.tests.PageObjectModel -->
->>>>>>> f846c5ae2c47ef961c6d7fca9c530a0b36bbe863
+      </class> <!-- qa.rajuverma.programs.LMSTestNgCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
